@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/tendermint/tmlibs/merkle"
+	"github.com/Baptist-Publication/chorus-module/lib/go-merkle"
 )
 
 func (blockID *BlockID) IsZero() bool {
